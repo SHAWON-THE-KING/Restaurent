@@ -1,0 +1,86 @@
+body {
+    background-color: black;
+    font-family: "Inter", sans-serif;
+}
+
+/* navbar */
+.navbar {
+    background-color: black;
+}
+
+.nav-item a {
+    color: white !important;
+}
+
+.navbar-logo {
+    padding: 10px 0px 10px 85px;
+}
+
+.btn {
+    --bs-btn-border-width: none;
+    padding: 0px 0px 0px 10px;
+    font-size: 25px;
+}
+
+.button {
+    padding: 0px 85px 0px 0px;
+}
+
+/* navbar */
+
+/* top-heading */
+#top-heading{
+    margin-bottom: 500px;
+}
+
+.heading-text{
+    box-shadow: -100px -100px 600px rgba(0, 0, 0, 0.3);
+}
+
+.heading{
+    padding: 200px 250px;
+    color: white;
+}
+
+.heading h1{
+    font-weight: 900;
+    font-size: 86px;
+
+}
+.heading p{
+    width: 510px;
+    color: #ffffffd4;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.h1-text{
+    display: block;
+}
+
+.order{
+    padding: 20px 50px;
+    border: none;
+    border-radius: 40px;
+    font-weight: bold;
+    font-size: 18px;
+    outline: none;
+}
+
+#top-heading{
+    position: relative;
+}
+
+.heading-img img{
+    /* height: 818px; */
+    width: 100%;
+    /* background-image: url(images/heading_\ img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+/* top-heading */
