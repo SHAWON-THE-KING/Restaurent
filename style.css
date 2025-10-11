@@ -88,9 +88,6 @@ body {
 
 
 /* best food maker */
-#menu-container{
-    margin-bottom: 500px;
-}
 
 .common-heading h2 {
     color: white;
@@ -147,6 +144,7 @@ body {
     border-radius: 10px
 }
 .food-item{
+    margin: auto;
     margin-top: 80px;
     padding: 0px 30px;
     background-color: #191919;
@@ -172,4 +170,96 @@ body {
 .food-price{
     padding: 10px 0px;
 }
+
+.see-all{
+    margin-top: 80px;
+}
+
+.see-all-btn{
+    padding: 20px 54px;
+    border-radius: 40px;
+    display: block;
+    margin: auto;
+}
 /* best food maker */
+
+/* quality food */
+#quality-food{
+    margin-top: 180px;
+}
+
+.number{
+    margin-top: 60px;
+}
+
+.number h3{
+    color: white;
+    font-size: 56px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.number p{
+    color: rgba(255, 255, 255, 0.800);
+    text-align: center;
+}
+/* quality food */
+
+/* Start The Adventure */
+#the-adventure{
+    margin-top: 150px;
+}
+/* Start The Adventure */
+
+/* clients */
+#clients{
+    margin-top: 150px;
+}
+.client-box{
+    margin-top: 70px;
+    height: 370px;
+    width: 370px;
+    background-color: #191919;
+    border-radius: 16px;
+    position: relative;
+}
+
+.client-img{
+    padding: 30px 30px;
+}
+
+.client-ditels h3{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 18px;
+}
+.client-ditels p{
+    color: #ffffffb6;
+    font-size: 16px;
+}
+
+.stars{
+    position: absolute;
+    top: 90px;
+    left: 117px;
+}
+.vector{
+    padding: 0px 0px 0px 30px;
+}
+
+.line{
+    position: absolute;
+    top: 148px;
+    left: 55px;
+    height: 0;
+    width: 200px;
+    border: 0.1px solid;
+}
+
+.review{
+    /* text-align: start; */
+    font-size: 18px;
+    padding: 30px 30px;
+    color: #ffffffb6;
+}
+/* clients */
